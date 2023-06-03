@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 개발자 자기소개</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home" onclick="showPage('home')">HOME</a></li>
+            <li><a href="#about" onclick="showPage('about')">ABOUT ME</a></li>
+            <li><a href="#Motto" onclick="showPage('Motto')">MOTTO</a></li>
+            <li><a href="#mbti" onclick="showPage('mbti')">MBTI</a></li>
+            <li><a href="#skills" onclick="showPage('skills')">SKILLS</a></li>
+        </ul>
+    </div>
+
+    <div class="section show" id="home">
+        <div id="profile-div">
+            <img class="profile-img" src="주현.png" alt="프로필 사진">
+            <div>
+                <h1 id="typing-text"></h1>
+
+                <p>
+                    Hello, I'm Kim Joohyun. I am a person who is interested in programming and is open to new technologies and challenges. I value teamwork and like to achieve my goal through smooth communication. I am participating in various projects based on problem solving skills and creative thinking. We value the opportunity to work and grow together and do our best. Thank you.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="section" id="about">
+        <h1>ABOUT ME</h1>
+        <table>
+            <tr>
+                <td><img src="https://cdn-icons-png.flaticon.com/128/634/634761.png" width="50"></td>
+                <td><b>이름</b><br>김주현(金珠玹)</td>
+                <td><img src="https://cdn-icons-png.flaticon.com/128/483/483111.png" width="50"></td>
+                <td><b>출생</b><br>2003.09.18.</td>
+                <td><img src="https://cdn-icons-png.flaticon.com/128/25/25694.png" width="50"></td>
+                <td><b>거주지</b><br>경기 남양주</td>
+            </tr>
+            <tr>
+                <td><img src="https://cdn-icons-png.flaticon.com/128/126/126341.png" width="50"></td>
+                <td><b>전화번호</b><br>010-9025-5936</td>
+                <td><img src="https://cdn-icons-png.flaticon.com/128/542/542689.png" width="50"></td>
+                <td><b>이메일</b><br>juhyun030918@naver.com</td>
+                <td><img src="https://cdn-icons-png.flaticon.com/128/717/717392.png" width="50"></td>
+                <td><b>인스타그램</b><br>___0g.l8</td>
+            </tr>
+        </table>
+        <h3 id="aboutme-h3">* 문의는 전화번호/이메일로 부탁드려요.</h3>
+    </div>
+
+    <div class="section" id="Motto">
+        <h1>Motto</h1>
+        <div class="box2">
+            <div class="content">
+                <h1 style="font-family: 'Roboto', sans-serif;">바보처럼 공부하고, 천재처럼 꿈꿔라.</h1>
+                <p>
+                    My mentor is former UN Secretary-General Ban Ki-moon. When I was young, I read the book presented on the right side from my parents and I was greatly enlightened by his words. Since he was young, he has devoted a lot of interest and effort to English and ran toward his dream. He said, 'Study like a fool, dream like a genius.' Since then, I have to dream, but I always studied thinking that studying should come first. I am very grateful to him.</p>
+            </div>
+
+            <div><img class="mento-img" src="http://image.yes24.com/momo/TopCate53/MidCate03/5226890.jpg" alt="멘토 사진">
+            </div>
+        </div>
+    </div>
+
+    <fieldset class="section" id="mbti"
+        style="padding-bottom: 60px; border-width: 10px; border-style: solid; border-color: #333;">
+        <legend style="padding: 0px; height: auto;">
+            <h1>MBTI</h1>
+        </legend>
+        <p id="intp-p">INTP(논리적인 사색가, 논리술사)</p>
+        <ul style="text-align: left; margin-left: 100px; margin-right: 100px;">
+            <li><b>1. 분석적 (Thinking):</b> 논리적이고 분석적인 사고를 가지고 있어서 문제를 분해하고 이해하는 데 능숙합니다. 사실과 데이터에 기반하여 의사결정을 내립니다.</li>
+            <li><b>2. 유연성 (Perceiving):</b> 일반적으로 계획적이기보다는 유연한 삶을 선호합니다. 환경에 적응하고 변화에 잘 대처하며, 새로운 가능성을 계속해서 탐구하려는 성향이
+                있습니다.</li>
+            <li><b>3. 직관적 사고자 (Intuitive):</b> 상상력과 직관력이 뛰어나며, 추상적인 개념을 이해하고 다양한 가능성을 탐색하는 데 능숙합니다.</li>
+        </ul>
+        <div class="image-container">
+            <img class="intp-img" src="https://cdn-icons-png.flaticon.com/128/1491/1491165.png" alt="intp1 사진">
+            <img class="intp-img" src="https://cdn-icons-png.flaticon.com/128/7389/7389524.png" alt="intp2 사진">
+            <img class="intp-img" src="https://cdn-icons-png.flaticon.com/128/3159/3159299.png" alt="intp3 사진">
+        </div>
+    </fieldset>
+
+    <div class="section" id="skills">
+        <div class="box3"></div>
+        <h1 id="skill_h1">SKILLS</h1>
+
+        <table>
+            <tr>
+                <td>
+                    <img class="tec-img" src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png"><br>HTML5
+                </td>
+                <td>
+                    <img class="tec-img" src="https://cdn-icons-png.flaticon.com/128/5968/5968242.png"><br>CSS3
+                </td>
+                <td>
+                    <img class="tec-img" src="https://cdn-icons-png.flaticon.com/128/136/136530.png"><br>JavaScript
+                </td>
+                <td>
+                    <img class="tec-img" src="https://cdn-icons-png.flaticon.com/128/5069/5069814.png"><br>C
+                </td>
+                <td>
+                    <img class="tec-img" src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png"><br>Python
+                </td>
+                <td>
+                    <img class="tec-img" src="https://cdn-icons-png.flaticon.com/128/5968/5968282.png"><br>Java
+                </td>
+            </tr>
+        </table>
+        <div style="margin-top: 50px;">
+            <h1>PROJECT</h1>
+            <div class="pro-box">
+                <p id = "pro-p">EV3를 이용한 자율주행 구현</p>
+                <img src="자율주행.jpeg" alt="Your Image">
+                <ul>
+                    <li id = "pro-li">레고 마인드스톰 EV3를 활용해 라인트레이서 로봇 구현</li>
+                    <li id = "pro-li">EV3는 터치, 컬러, 자이로, 적외선 센서 등으로 구성</li>
+                </ul>
+
+            </div>
+            
+            <div class="pro-box">
+                <p id = "pro-p">3D 프린팅으로 만든 알파벳 거치대</p>
+                <img src="거치대.jpeg" alt="Your Image">
+                <ul>
+                    <li id = "pro-li">3D 프린팅 프로그램으로 알파벳 거치대 설계</li>
+                    <li id = "pro-li">3D 프린터로 태블릿, 스마트폰에 걸맞는 거치대 구현</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+    <script>
+
+
+        function showPage(pageId) {
+            var sections = document.getElementsByClassName('section');
+            for (var i = 0; i < sections.length; i++) {
+                if (sections[i].id === pageId) {
+                    sections[i].classList.add('show');
+                } else {
+                    sections[i].classList.remove('show');
+                }
+            }
+        }
+
+        // 링크 클릭 시 페이지 이동 방지
+        document.querySelectorAll('.navbar a').forEach(function (link) {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+            });
+        }); var sections = document.getElementsByClassName('section');
+        for (var i = 0; i < sections.length; i++) {
+            sections[i].classList.add('hidden');
+        }
+        document.getElementById(pageId).classList.remove('hidden');
+    </script>
+</body>
+
+</html>
